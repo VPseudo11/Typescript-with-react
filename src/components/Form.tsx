@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components'
 
 type Props = {}
 
@@ -7,10 +8,14 @@ const Form = ({ }: Props) => {
 
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <FormContainer onSubmit={handleSubmit}>
             <input type="text" name='nick' />
-        </form>
+        </FormContainer>
     )
 }
+
+const FormContainer = styled.form`
+
+`
 
 export default Form
