@@ -16,6 +16,15 @@ const Form = ({ }: Props) => {
             <input type="text" name='nick' />
             <input type="text" name='nick' />
             <input type="text" name='nick' />
+            <label htmlFor="nick">Nickname</label>
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />  <label htmlFor="nick">Nickname</label>
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />
+            <input type="text" name='nick' />
         </FormContainer>
     )
 }
