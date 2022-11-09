@@ -13,9 +13,6 @@ const Form = ({ }: Props) => {
             <input type="text" placeholder='NickName' />
             <label htmlFor="nick">Nickname</label>
             <input type="text" name='nick' />
-            <label htmlFor="nick">Nickname</label>
-            <input type="text" placeholder='NickName' />
-            <label htmlFor="nick">Nickname</label>
             <input type="text" name='nick' />
         </FormContainer>
     )
