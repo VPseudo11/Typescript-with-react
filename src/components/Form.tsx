@@ -9,6 +9,7 @@ const Form = ({ }: Props) => {
     }
     return (
         <FormContainer onSubmit={handleSubmit}>
+            <label htmlFor="nick">Nickname</label>
             <input type="text" placeholder='NickName' />
             <input type="text" name='nick' />
         </FormContainer>
