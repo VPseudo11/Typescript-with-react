@@ -9,14 +9,13 @@ const Form = ({ }: Props) => {
     }
     return (
         <FormContainer onSubmit={handleSubmit}>
-            <input type="text" name='nick' />
             <input type="text" placeholder='NickName' />
+            <input type="text" name='nick' />
         </FormContainer>
     )
 }
 
 const FormContainer = styled.form`
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +25,10 @@ const FormContainer = styled.form`
 
     &>input{
         margin: 5px;
+        width: 250px;
+        height: 25px;
+        border-radius: 15px;
+        text-align: center;
     }
 `
 
