@@ -1,3 +1,5 @@
+# Version del curso
+Version Actual: v1.2.2
 # Head H1
 ## Head H2
 ### Head H3
