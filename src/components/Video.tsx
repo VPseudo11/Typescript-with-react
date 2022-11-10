@@ -4,7 +4,16 @@ type Props = {}
 
 function Video({}: Props) {
   return (
-    <div>Video</div>
+    <div>
+        <div>
+            <h1>
+                hola
+            </h1>
+            <h2>
+                adios
+            </h2>
+        </div>
+    </div>
   )
 }
 
